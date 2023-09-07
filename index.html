@@ -29,16 +29,29 @@
       </nav>
     </header>
     <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                Hi, My name is <span class="purple">Anushka</span> 
-                <div>and I am passionate</div>
-                <div>Web Developer</div>
-            </div>
-            <div class="rightSection">
-                <img src="images/dev-photo.png" alt="">
-            </div>
-        </section>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="sage-green">Anushka</span>
+          <div>and I am passionate a</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="images/dev-photo.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Experience</h1>
+        <div class="box"></div>
+      </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>

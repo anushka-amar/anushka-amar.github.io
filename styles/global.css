@@ -13,7 +13,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(252, 240, 240);
+    /* background-color: rgb(252, 240, 240); */
+    background-color: rgb(247, 240, 240);
     /*background-color: #fbe9ef;*/
 }
 nav ul{
@@ -31,4 +32,14 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(203, 188, 188);
     font-size: 1.01rem;
+}
+
+main hr{
+    border: 0;
+    background: rgb(203, 188, 188); ;
+    height: 3px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 84px;
+    margin-right: 84px;
 }

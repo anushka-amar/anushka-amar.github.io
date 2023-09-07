@@ -1,3 +1,10 @@
-.purple{
+.sage-green{
+    color: rgb(85, 135, 115);
+}
+.text-grey{
+    color: gray;
+}
+
+#element{
     color: rgb(85, 135, 115);
 }
