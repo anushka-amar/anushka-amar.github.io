@@ -20,6 +20,7 @@
     padding: 50px 0;
 }
 .leftSection .btn{
+    
     padding: 12px;
     background: rgb(121, 175, 154);
     color: rgb(31, 30, 30);
@@ -27,11 +28,20 @@
     border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
-    
+
     
 }
+.leftSection .btn a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
 .leftSection .btn:hover{
-    background-color: rgb(155, 182, 171);
+    /* background-color: rgb(174, 203, 191); */
+    background-color: rgb(161, 191, 180);
+    font-size: 1.2rem;
+}
+.leftSection .btn{
+    background-color: rgb(146, 175, 163);
     /* font-size: 1.01rem; */
 }
 .rightSection img{
@@ -75,4 +85,27 @@ footer .footer-text-center{
     text-align: center;
     color: gray;
     padding: 12px 0;
+}
+.PsecondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.PsecondSection h1{
+    margin: 50px 0;
+    font-size: 1.9;
+}
+.PsecondSection .box{
+    display: flex;
+    background-color: rgb(203, 188, 188);
+    width: 80vw;
+    height: 3px;
+    margin: 56px 0;
+    display: flex;
+}
+.PsecondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(203, 188, 188);
+    margin: 0 180px;
 }

@@ -22,6 +22,18 @@
     font-size: 15px;
     color: gray;
 }
+.PsecondSection .image-top1{
+    width: 70px;
+    position: relative;
+    top: -60px;
+    left: -29px;
+}
+.PsecondSection .image-top2{
+    width: 60px;
+    position: absolute;
+    top: -62px;
+    left: -30px;
+}
 #element{
     color: rgb(85, 135, 115);
 }
