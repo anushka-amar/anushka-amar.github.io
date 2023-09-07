@@ -4,7 +4,24 @@
 .text-grey{
     color: gray;
 }
-
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -14px;
+}
+.vertical-title{
+    position: relative;
+    top: 65px;
+    width: 200px;
+}
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    width: 300px;
+    font-size: 15px;
+    color: gray;
+}
 #element{
     color: rgb(85, 135, 115);
 }
