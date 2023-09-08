@@ -69,22 +69,12 @@
     background-color: rgb(203, 188, 188);
     margin: 0 200px;
 }
-
-.footer{
-    display: flex;
-    margin: 23px 122px;
-    justify-content: space-evenly;
-}
-.footer ul{
-    list-style: none;
-}
-.footer > div{
-    width: 223px;
-}
-footer .footer-text-center{
-    text-align: center;
+.secondSection .vertical-desc{
+    position: relative;
+    top: 80px;
+    width: 348px;
+    font-size: 15px;
     color: gray;
-    padding: 12px 0;
 }
 .PsecondSection{
     max-width: 80vw;
@@ -98,14 +88,87 @@ footer .footer-text-center{
 .PsecondSection .box{
     display: flex;
     background-color: rgb(203, 188, 188);
-    width: 80vw;
+    width: 70vw;
     height: 3px;
     margin: 56px 0;
     display: flex;
 }
-.PsecondSection .vertical{
+.PsecondSection .vertical1{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(203, 188, 188);
+    margin: 0 250px;
+}
+.PsecondSection .vertical1 .vertical-title{
+    position: relative;
+    top: 34px;
+    width: 200px;
+}
+.PsecondSection .vertical1 .vertical-desc{  
+    position: relative;
+    top: 48px;
+    width: 328px;
+    font-size: 15px;
+    color: gray;
+}
+.PsecondSection .vertical2{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(203, 188, 188);
+    margin: 0 250px;
+}
+.PsecondSection .vertical2 .vertical-title{
+    position: relative;
+    top: 28px;
+    width: 220px;
+}
+.PsecondSection .vertical2 .vertical-desc{
+    position: relative;
+    top: 43px;
+    width: 326px;
+    font-size: 15px;
+    color: gray;
+}
+.PsecondSection .vertical3{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(203, 188, 188);
+    margin: 0 250px;
+}
+.PsecondSection .vertical3 .vertical-title{
+    position: relative;
+    top: 30px;
+    width: 200px;
+}
+.PsecondSection .vertical3 .vertical-desc{
+    position: relative;
+    top: 47px;
+    width: 360px;
+    font-size: 15px;
+    color: gray;
+}
+.PsecondSection .vertical4{
     height: 93px;
     width: 1px;
     background-color: rgb(203, 188, 188);
     margin: 0 180px;
+}
+.bottom-container{
+    background-color: rgb(255, 248, 248);
+    padding: 10px;
+}
+.bottom-container a:hover{
+    color: rgb(203, 188, 188);
+    font-size: 1.01rem;
+}
+.bottom-container .bdiv{
+    text-align: center;
+    padding: 20px 0 20px;
+    /* left: 30vw; */
+}
+.bottom-container .footer-link{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    margin: 0 4vw;
 }

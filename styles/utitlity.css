@@ -22,17 +22,23 @@
     font-size: 15px;
     color: gray;
 }
-.PsecondSection .image-top1{
+.PsecondSection .vertical1 .image-top{
     width: 70px;
     position: relative;
     top: -60px;
     left: -29px;
 }
-.PsecondSection .image-top2{
-    width: 60px;
-    position: absolute;
-    top: -62px;
-    left: -30px;
+.PsecondSection .vertical2 .image-top{
+        width: 59px;
+        position: relative;
+        top: -58px;
+        left: -29px;
+}
+.PsecondSection .vertical3 .image-top{
+    width: 58px;
+    position: relative;
+    top: -56px;
+    left: -29px;
 }
 #element{
     color: rgb(85, 135, 115);
